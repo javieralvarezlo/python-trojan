@@ -18,7 +18,7 @@ print("listening on port 1337...")
 while True:
 	# establish a connection
 	clientsocket, client_ip = s.accept()
-	print("[+] received a connection from -> {}".format(client_ip))
+	print("[+] detectada conexión desde -> {}".format(client_ip))
 
 	# get the encoded data
 	encoded_data = clientsocket.recv(4096)
